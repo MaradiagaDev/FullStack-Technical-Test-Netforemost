@@ -1,0 +1,53 @@
+﻿@page "/ToDoListPage"
+@inject SweetAlertService Swal2
+@inject ProtectedLocalStorage localStorage
+
+
+<PageTitle>To Do List Netforemost</PageTitle>
+
+@using CurrieTechnologies.Razor.SweetAlert2;
+@using FrontEndToDoListNetforemost.Data
+@inject WeatherForecastService ForecastService
+
+<h1>To Do List</h1>
+
+<p>This component demonstrates fetching data from a service.</p>
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">To-Do List</h1>
+    <div class="input-group mb-4">
+        <input type="text" id="new-task" class="form-control" placeholder="Enter a new task">
+        <div class="input-group-append">
+            <button id="add-task" class="btn btn-primary">Add Task</button>
+        </div>
+    </div>
+    <ul id="task-list" class="list-group">
+        <!-- List items will be added here dynamically -->
+    </ul>
+</div>
+
+@code {
+    public string token;
+    public string userId;
+
+    List<TblTasks> tblTasks = new TblTasks();
+
+    private async Task<string> ObtenerToken()
+    {
+        var token = await localStorage.GetAsync<string>("token");
+        return token.Value;
+    }
+
+    private async Task<string> ObtenerUserId()
+    {
+        var user = await localStorage.GetAsync<string>("userId");
+        return user.Value;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        token = await ObtenerToken();
+        userId = await ObtenerUserId();
+    }
+
+}
