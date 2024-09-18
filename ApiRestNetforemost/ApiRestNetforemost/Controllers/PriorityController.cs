@@ -34,7 +34,8 @@ namespace ApiRestNetforemost.Controllers
                 return Ok(new
                 {
                     success = true,
-                    message = ""
+                    message = "",
+                    result = response
                 });
             }
             catch (Exception ex)

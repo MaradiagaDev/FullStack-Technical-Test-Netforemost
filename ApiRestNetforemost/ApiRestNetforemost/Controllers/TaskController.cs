@@ -11,8 +11,8 @@ namespace ApiRestNetforemost.Controllers
     {
         private TaskServices taskServices = new TaskServices();
 
-        [HttpGet("GetAllTask")]
-        public IActionResult GetAllTask(string userID, int pageNumber = 1, int pageSize = 10)
+        [HttpPost("GetAllTask")]
+        public IActionResult GetAllTask(GetTaskDto dto)
         {
             try
             {
@@ -29,17 +29,17 @@ namespace ApiRestNetforemost.Controllers
                     });
                 }
 
-                if (pageNumber < 1)
+                if (dto.pageNumber < 1)
                 {
                     return BadRequest("The page number must be greater than zero..");
                 }
 
-                if (pageSize < 1)
+                if (dto.pageSize < 1)
                 {
                     return BadRequest("The page size must be greater than zero.");
                 }
 
-                var response = taskServices.GetAllTask(userID, pageNumber, pageSize);
+                var response = taskServices.GetAllTask(dto.userID, dto.pageNumber, dto.pageSize);
 
                 return Ok(new
                 {

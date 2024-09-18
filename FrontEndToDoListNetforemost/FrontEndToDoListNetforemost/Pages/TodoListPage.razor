@@ -2,35 +2,115 @@
 @inject SweetAlertService Swal2
 @inject ProtectedLocalStorage localStorage
 
-
 <PageTitle>To Do List Netforemost</PageTitle>
 
 @using CurrieTechnologies.Razor.SweetAlert2;
 @using FrontEndToDoListNetforemost.Data
-@inject WeatherForecastService ForecastService
 
-<h1>To Do List</h1>
-
-<p>This component demonstrates fetching data from a service.</p>
 
 <div class="container mt-5">
     <h1 class="text-center mb-4">To-Do List</h1>
     <div class="input-group mb-4">
-        <input type="text" id="new-task" class="form-control" placeholder="Enter a new task">
-        <div class="input-group-append">
-            <button id="add-task" class="btn btn-primary">Add Task</button>
+        <!-- Botón para abrir el modal -->
+        <div class="text-center mb-4">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#taskModal" @onclick="(s => addNewTask())">Agregar Tarea</button>
         </div>
     </div>
     <ul id="task-list" class="list-group">
-        <!-- List items will be added here dynamically -->
+        @if (tblTasks.Count == 0)
+        {
+            <div style="color: #6c757d; font-size: 18px; font-weight: bold;">Add new task!</div>
+
+        }
+        else
+        {
+            @foreach (var task in tblTasks)
+            {
+                <li class="list-group-item d-flex align-items-start border rounded-3 mb-2 p-3">
+                    <div class="form-check me-3">
+                        <input class="form-check-input" type="checkbox" id="task-@task.IdTask">
+                        <label class="form-check-label" for="task-@task.IdTask"></label>
+                    </div>
+                    <div class="w-100">
+                        <div class="d-flex w-100 justify-content-between align-items-center mb-2">
+                            <h5 class="mb-0">@task.Title</h5>
+                            <small class="text-muted">Due Date: @task.ExpirationDate.ToString("dd MMM yyyy")</small>
+                        </div>
+                        <p class="mb-2 text-muted">@task.DescriptionTask</p>
+                        <span class="badge bg-info text-dark">@task.Tags</span>
+                        <span class="badge bg-warning text-dark ms-2">@GetPriority(@task.IdPriority)</span>
+                    </div>
+                </li>
+
+            }
+
+        }
+
     </ul>
 </div>
+
+<div class="modal fade" id="taskModal" tabindex="-1" role="dialog" aria-labelledby="taskModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="taskModalLabel">Add new task!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="taskForm">
+                    <div class="form-group">
+                        <label for="taskTitle">Title</label>
+                        <input type="text" class="form-control" id="taskTitle" placeholder="Enter the title" @bind="@vParTitle">
+                    </div>
+                    <div class="form-group">
+                        <label for="taskDescription">Description</label>
+                        <textarea class="form-control" id="taskDescription" rows="3" placeholder="Enter the description" @bind="@vParDescription"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="taskDate">Due Date</label>
+                        <input type="date" class="form-control" id="taskDate" @bind="@vparDueDate">
+                    </div>
+                    <div class="form-group">
+                        <label for="taskTag">Tag</label>
+                        <input type="text" class="form-control" id="taskTag" placeholder="Enter the tag" @bind="@vParTag">
+                    </div>
+                    <div class="form-group">
+                        <label for="taskCategory">Categoría</label>
+                        <select class="form-control" id="taskCategory">
+
+                            @foreach (var priority in tblPriorities)
+                            {
+                                <option value="@priority.IdPriority">@priority.NamePriority</option>
+                            }
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" @onclick="(s => CreateNewTask())">Save task</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 @code {
     public string token;
     public string userId;
+    private ViewModels.VMToDoList vMToDoList = new ViewModels.VMToDoList();
+    List<TblTasks> tblTasks = new List<TblTasks>();
+    private int vGlobPageNumber;
+    private int vGlobPageSize;
 
-    List<TblTasks> tblTasks = new TblTasks();
+    private string vParTitle;
+    private string vParTag;
+    private string vParDescription;
+    private DateTime vparDueDate;
+    private List<TblPriority> tblPriorities = new List<TblPriority>();
+    private TblPriority SelectedPriority = new TblPriority();
 
     private async Task<string> ObtenerToken()
     {
@@ -44,10 +124,70 @@
         return user.Value;
     }
 
-    protected override async Task OnInitializedAsync()
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        token = await ObtenerToken();
-        userId = await ObtenerUserId();
+        if (firstRender)
+        {
+            // Aquí puedes hacer llamadas a JavaScript interop
+            token = await ObtenerToken();
+            userId = await ObtenerUserId();
+
+            InitList();
+        }
+    }
+
+    private async void InitList()
+    {
+        vGlobPageNumber = 1;
+        vGlobPageSize = 10;
+        tblTasks = await vMToDoList.GetTblTasks(token, userId, vGlobPageNumber, vGlobPageSize, Swal2);
+        tblPriorities = await vMToDoList.GetTblPriorities(token, Swal2);
+        StateHasChanged();
+    }
+
+    private async void CreateNewTask()
+    {
+        bool ExistTask = await vMToDoList.AddNewTask(vParTag, vParTitle, vParDescription, vparDueDate, SelectedPriority.IdPriority, token, userId, Swal2);
+
+        if (ExistTask)
+        {
+            InitList();
+        }
+
+        StateHasChanged();
+    }
+
+    private string GetPriority(int? idPriority)
+    {
+        try
+        {
+            var priority = tblPriorities.Where(s => s.IdPriority == idPriority).FirstOrDefault();
+            return priority.NamePriority;
+        }
+        catch (Exception ex)
+        {
+            _ = Swal2.FireAsync(new SweetAlertOptions
+                {
+                    Title = "Error de Servidor",
+                    Text = "Ah ocurrido un error con el servidor.",
+                    Icon = SweetAlertIcon.Error,
+                    ConfirmButtonText = "Ok",
+                    CancelButtonText = "Volver"
+                });
+
+            return "";
+        }
+    }
+
+    private async void addNewTask()
+    {
+        vParTitle = string.Empty;
+        vParDescription = string.Empty;
+        vparDueDate = DateTime.Now;
+        vParTag = string.Empty;
+        SelectedPriority = tblPriorities.FirstOrDefault();
+        StateHasChanged();
     }
 
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8R0n020DuGUF5W5FFcEz0WqAK/JRHZa0mhXMDmGaYGaPEcskLkAeAy/Q0my/jSI584WvFUhlvP11K9+EEP/bRA==",
+  "dgSpecHash": "/g36Z2CYmRe/XR0m9AfjMYQ62YoIbdGtH1lD4ai5DfUqa6PzcZvy8EOcWzx+GuaEEbm72vql4Ol5E5VH3Sae5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\ApiRestNetforemost\\ApiRestNetforemost\\ApiRestNetforemost.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\ApiRestNetforemost\\ApiRestNetforemost\\ApiRestNetforemost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

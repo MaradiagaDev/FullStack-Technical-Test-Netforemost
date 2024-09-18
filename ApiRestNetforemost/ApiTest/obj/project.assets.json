@@ -8190,11 +8190,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\ApiRestNetforemost\\ApiTest\\ApiTest.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\ApiRestNetforemost\\ApiTest\\ApiTest.csproj",
       "projectName": "ApiTest",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\ApiRestNetforemost\\ApiTest\\ApiTest.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\ApiRestNetforemost\\ApiTest\\ApiTest.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\ApiRestNetforemost\\ApiTest\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\ApiRestNetforemost\\ApiTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8216,8 +8216,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\ApiRestNetforemost\\ApiRestNetforemost\\ApiRestNetforemost.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\ApiRestNetforemost\\ApiRestNetforemost\\ApiRestNetforemost.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\ApiRestNetforemost\\ApiRestNetforemost\\ApiRestNetforemost.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\ApiRestNetforemost\\ApiRestNetforemost\\ApiRestNetforemost.csproj"
             }
           }
         }

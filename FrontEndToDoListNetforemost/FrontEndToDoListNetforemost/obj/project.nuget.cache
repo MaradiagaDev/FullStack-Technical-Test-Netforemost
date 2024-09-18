@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+SLpIN+vesbka2iMbj5/EsBPdeH2F8ch7MJVPDZABsA9NWqMT54do6MlJ+hLYlFOr9zt6Yf26aLMP1Cv+G2guQ==",
+  "dgSpecHash": "RNHRePWCJM96BdIQZXCQ7eV5DVh/TlchB04CKhE4Ey/hcSKIYqX4LOD1jaDaoq7NKB1g1ffpeitCZHky/OSICg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.6.0\\currietechnologies.razor.sweetalert2.5.6.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.25\\microsoft.aspnetcore.authorization.6.0.25.nupkg.sha512",

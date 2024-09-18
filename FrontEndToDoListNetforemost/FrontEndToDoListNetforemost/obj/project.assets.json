@@ -627,11 +627,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost.csproj",
       "projectName": "FrontEndToDoListNetforemost",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

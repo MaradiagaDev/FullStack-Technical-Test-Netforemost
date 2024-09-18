@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fQlP+Ao+5led+6fqwfYAgK+dbjIfe/v01Hj4wLC9zqU=",
+  "Hash": "rRLVpBNkrdw7oXsHYJ+nMo5GFCqYrgV66uX3mJDaDnk=",
   "Source": "FrontEndToDoListNetforemost",
   "BasePath": "_content/FrontEndToDoListNetforemost",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "FrontEndToDoListNetforemost\\wwwroot",
       "Source": "FrontEndToDoListNetforemost",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "Pattern": "**"
     }
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "C:\\Users\\Usuario\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.6.0\\staticwebassets\\wordpressAdminTheme.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FrontEndToDoListNetforemost.styles.css",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FrontEndToDoListNetforemost.styles.css",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "FrontEndToDoListNetforemost.styles.css",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FrontEndToDoListNetforemost.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FrontEndToDoListNetforemost.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FrontEndToDoListNetforemost.bundle.scp.css",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FrontEndToDoListNetforemost.bundle.scp.css",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "FrontEndToDoListNetforemost.bundle.scp.css",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FrontEndToDoListNetforemost.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FrontEndToDoListNetforemost.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\css\\site.css",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\favicon.ico",
       "SourceId": "FrontEndToDoListNetforemost",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\FrontEndToDoListNetforemost\\FrontEndToDoListNetforemost\\wwwroot\\",
       "BasePath": "_content/FrontEndToDoListNetforemost",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

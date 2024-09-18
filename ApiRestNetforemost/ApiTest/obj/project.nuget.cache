@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cwli4idI/Nin9AdQK9CefuvMkcIwzGMuF955VR7Gq7Gyecxy+f0lzEeEGQP/gTNjkfdQUnefsXp9UPIv5BpnPw==",
+  "dgSpecHash": "vh38Qc6ULNy57T3NkFcELD4Ba4JfUt0ut0v0vK2eoU4Edu0AA0YrAyeCB/mc21654kMsorECbN4VASYiCIGwyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\ApiRestNetforemost\\ApiTest\\ApiTest.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\FullStack-Technical-Test-Netforemost\\ApiRestNetforemost\\ApiTest\\ApiTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",

@@ -24,4 +24,11 @@ namespace ApiRestNetforemost.DTO
             return string.Empty; 
         }
     }
+
+    public class GetTaskDto
+    {
+        public string userID { get; set; }
+        public int pageNumber { get; set; } = 1;
+        public int pageSize { get; set; } = 10;
+    }
 }
